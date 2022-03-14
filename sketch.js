@@ -55,6 +55,8 @@ function getData(){
   document.getElementById("x").innerHTML = rotationX.toFixed(2);
   document.getElementById("y").innerHTML = rotationY.toFixed(2);
   document.getElementById("z").innerHTML = rotationZ.toFixed(2);
+
+  document.getElementById("filas").innerHTML = datos.length;
   
 }
 
