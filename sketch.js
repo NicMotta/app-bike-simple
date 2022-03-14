@@ -20,9 +20,11 @@ let datos = [{
   z: "",
 }];
 
+setInterval(getData, 250);
+
 function setup() {
   //createCanvas(window.innerWidth, window.innerHeight);
-  setInterval(getData, 250);
+  
 
     // Initialize Firebase
     var config = {
