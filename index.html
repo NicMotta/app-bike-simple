@@ -24,10 +24,34 @@
       }
     </script>
 
-    
+    <h1 class="text-gray-800 text-3xl m-2 font-bold">APP BIKE</h1>
 
-    <footer class='fixed right-0 bottom-0 left-0 bg-red-100 text-red-700 m-auto'>
-      <button class="rounded rounded-full bg-gray-800 text-xl"><i class="material-icons">cloud</i></button>
+    <div class="m-3 rounded-md shadow drop-shadow-md">
+      <h2 class="text-xl text-center font-bold text-gray-500">GIROSCOPIO</h2>
+      <div class="grid grid grid-cols-3 text-center">
+        <div>
+          <h5 class="text-gray-500 font-bold">X</h5>
+          <hr class="w-3/4 m-auto">
+          <p id="x" class="text-xl text-gray-800 font-bold"></p>
+        </div>
+        <div>
+          <h5 class="text-gray-500 font-bold">Y</h5>
+          <hr class="w-3/4 m-auto">
+          <p id="y" class="text-xl text-gray-800 font-bold">129.43</p>
+        </div>
+        <div>
+          <h5 class="text-gray-500 font-bold">Z</h5>
+          <hr class="w-3/4 m-auto">
+          <p id="z" class="text-xl text-gray-800 font-bold">75.64</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class='grid grid-cols-4 place-items-center fixed right-0 bottom-0 left-0 text-gray-200'>
+      <button class="m-2 w-14 h-14 rounded-full bg-gray-800 text-3xl"><i class="material-icons text-4xl justify-center items-center flex">add</i></button>
+      <button class="m-2 w-14 h-14 rounded-full bg-gray-800 text-center"><i class="material-icons text-4xl justify-center items-center flex">backup</i></button>
+      <button class="m-2 w-14 h-14 rounded-full bg-gray-800 text-center"><i class="material-icons">cloud</i></button>
+      <button class="m-2 w-14 h-14 rounded-full bg-gray-800 text-center"><i class="material-icons">cloud</i></button>
     </footer>
 
   </body>

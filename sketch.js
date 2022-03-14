@@ -41,7 +41,7 @@ function setup() {
 }
 
 function draw() {
-  // * No dibujo nada, solo uso el motor
+// NO se usa
 }
 
 function getData(){
@@ -51,6 +51,11 @@ function getData(){
     y: rotationY.toFixed(2),
     z: rotationZ.toFixed(2),
   }
+
+  document.getElementById("x").innerHTML = rotationX.toFixed(2);
+  document.getElementById("y").innerHTML = rotationY.toFixed(2);
+  document.getElementById("z").innerHTML = rotationZ.toFixed(2);
+  
 }
 
 function mostrarDatos() {
